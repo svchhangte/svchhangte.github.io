@@ -20,7 +20,7 @@ author:
 header_pages:
   - archive.md
   - bookshelf.md
-  - about.md
+  - about-me.md
 
 defaults:
   - scope:
