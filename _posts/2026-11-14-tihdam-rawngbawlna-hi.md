@@ -3,6 +3,7 @@ layout: post
 title: "Tihdam rawngbawlna hi"
 date: 2026-11-14
 permalink: /tihdam-rawngbawlna-hi/
+categories: [Pathian Thu]
 ---
 
 ***TlHDAM RAWNGBAWLNA HI***
@@ -66,8 +67,8 @@ Tun hunah hian kan buaipui ber tùr zâwk chu **Chatuan Nun** kan neihna tùr th
 
 **Tin, Tirkoh(Apostle) te kha chuan za-ah-za(100%)-in dam lo an tidam a, dam thei lo palh vêl an awm ve lo ngai lo a ni. <i>Anni hun kha chu hun bîk a ni tlat!</i>**
 
-**Setana power hmanga tihdamna kalpui pawh he khawvelah hian an awm ve tih kan hriat a ṭha:**
-👇🏻
+**Setana power hmanga tihdamna kalpui pawh he khawvelah hian an awm ve tih kan hriat a ṭha:**  
+👇🏻  
 Matthaia 7:22 "Chumi niah chuan mi tam takin, ‘Lalpa, Lalpa, **i hmingin thute kan sawiin, i hmingin ramhuaite kan hnawt chhuakin, i hmingin thil mak tam tak kan ti ṭhîn lo vem ni?’** an la ti ang. Chumi hunah chuan, **‘Nangni thil sual tite u, ka hre ngai lo a che u, ka hnên ata kal bo rawh u,’ tiin anni chu ka la hrilh ang."**
 
 **Tlângkawmna:**
