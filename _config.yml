@@ -15,7 +15,7 @@ plugins:
   - jekyll-sitemap
 
 author:
-  name: SV Chhangte
+  name: Samm's Blog
 
 header_pages:
   - archive.md
