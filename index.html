@@ -6,15 +6,15 @@ description: Personal writings on books, faith, technology, design, and life.
 
 <section class="intro">
   <p class="eyebrow">A PERSONAL JOURNAL</p>
-  Hi! Welcome to my little blog. 😊  
+  Hi! Welcome to my little blog. 😊 <br>
 
-My Name is **Samuel Vanlalruatsaka,** and I'm from a small city <a href="https://en.wikipedia.org/wiki/Aizawl">Aizawl</a>. Located in the North-Eastern Region of India.  
+My Name is <strong>Samuel Vanlalruatsaka,</strong> and I'm from a small city <a href="https://en.wikipedia.org/wiki/Aizawl">Aizawl</a>. Located in the North-Eastern Region of India.<br>
 
-I love tech. Most of my hobbies just require a computer/laptop, an internet connection, and a quiet place to sit and think. 😮‍💨  
+I love tech. Most of my hobbies just require a computer/laptop, an internet connection, and a quiet place to sit and think. 😮‍💨<br>
 
-I've been doing **Graphic Design** for over 8 years. I'm currently learning **Motion Graphics** with <a href="https://cavalry.studio">Cavalry</a>, and **Web Development** is my longest-running hobby. I also enjoy playing **Piano** and **Reading** Classic Books.   
+I've been doing <strong>Graphic Design</strong> for over 8 years. I'm currently learning <strong>Motion Graphics</strong> with <a href="https://cavalry.studio">Cavalry</a>, and <strong>Web Development</strong> is my longest-running hobby. I also enjoy playing <strong>Piano</strong> and <strong>Reading</strong> Classic Books.<br>  
 
-I created this blog to share my thoughts, share the list of books I've read as well as to share the **True Word of God.**  
+I created this blog to share my thoughts, share the list of books I've read as well as to share the <strong>True Word of God.</strong><br>
 <style> 
 .ka-link {
 padding: 10px; background-color: #25364b; color: #fff; border-radius: 20px; text-decoration: none; transition: all .3s ease;
@@ -24,9 +24,9 @@ background-color: #355c8d; color:#fff; padding: 11px; box-shadow: 5px 5px 15px -
 
 }
 </style>
-👉 <a class="ka-link" href="/archive">Read my Posts</a>  
+👉 <a class="ka-link" href="/archive">Read my Posts</a><br>
 
-👉 <a href="/bookshelf">List of Books I've Read</a>  
+👉 <a href="/bookshelf">List of Books I've Read</a><br>
 
 Have a nice day! 😊💕
 
@@ -43,18 +43,18 @@ Have a nice day! 😊💕
   {% if visible_posts.size > 0 %}
     <div class="post-list">
       {% for post in visible_posts limit: 10 %}
-        <article class="post-list-item">
+        <a href="{{ post.url | relative_url }}"><article class="post-list-item">
           <div class="post-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
             {% if post.categories.size > 0 %}<span class="meta-separator">·</span><span>{{ post.categories | first }}</span>{% endif %}
           </div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          <h3>{{ post.title | escape }}</h3>
           {% if post.description %}
             <p>{{ post.description | escape }}</p>
           {% elsif post.excerpt %}
             <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 155 }}</p>
           {% endif %}
-        </article>
+        </article></a>
       {% endfor %}
     </div>
   {% else %}
