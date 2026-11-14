@@ -21,6 +21,9 @@ header_pages:
   - archive.md
   - bookshelf.md
   - about-me.md
+  
+kramdown:
+hard_wrap: true
 
 defaults:
   - scope:
@@ -37,6 +40,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-
-  kramdown:
-  hard_wrap: true
