@@ -468,6 +468,38 @@ small { font-size: .8em; }
   .site-footer { flex-direction: column; margin-top: 38px; }
 }
 
+/* Responsive images inside posts and pages */
+.post-content img,
+.page-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.75rem auto;
+  border-radius: 6px;
+}
+
+/* Image captions */
+.post-content figure,
+.page-content figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.post-content figcaption,
+.page-content figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  color: #8993a1;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Prevent oversized images */
+.post-content img,
+.page-content img {
+  object-fit: contain;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto !important; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
