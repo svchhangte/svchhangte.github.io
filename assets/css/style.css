@@ -118,7 +118,16 @@ a:focus-visible {
   border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 0 5px rgba(65, 106, 156, .10);
-  transition: box-shadow 400ms ease, transform 400ms var(--ease);
+  animation: dot-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes dot-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 5px rgba(65, 106, 156, .10);
+  }
+  50% {
+    box-shadow: 0 0 0 9px rgba(65, 106, 156, 0);
+  }
 }
 .site-brand:hover { color: var(--accent); }
 .site-brand:hover::before {
