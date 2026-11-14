@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">{{ site.title }}</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          {% for path in site.header_pages %}
+            {% assign page_item = site.pages | where: "path", path | first %}
+            {% if page_item %}
+              <a href="{{ page_item.url | relative_url }}">{{ page_item.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </nav>
+      </header>
+
+      <main id="main-content">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <p>© {{ 'now' | date: "%Y" }} {{ site.author.name | default: site.title }}.</p>
+        <p><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+title: SV Chhangte
+description: Personal writings on books, faith, technology, design, and life.
+url: "https://svchhangte.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Kolkata
+
+markdown: kramdown
+permalink: /:title/
+future: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: SV Chhangte
+
+header_pages:
+  - archive.md
+  - bookshelf.md
+  - about.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: SV Chhangte
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
