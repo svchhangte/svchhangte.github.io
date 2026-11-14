@@ -43,7 +43,7 @@ Have a nice day! 😊💕
   {% if visible_posts.size > 0 %}
     <div class="post-list">
       {% for post in visible_posts limit: 10 %}
-        <a href="{{ post.url | relative_url }}"><article class="post-list-item">
+        <a href="{{ post.url | relative_url }}" style="text-decoration:none;"><article class="post-list-item">
           <div class="post-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
             {% if post.categories.size > 0 %}<span class="meta-separator">·</span><span>{{ post.categories | first }}</span>{% endif %}
