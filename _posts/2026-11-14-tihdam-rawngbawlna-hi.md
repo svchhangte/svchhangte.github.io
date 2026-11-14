@@ -9,7 +9,7 @@ permalink: /tihdam-rawngbawlna-hi/
 
 > **samm v. chhangte**
 
-       Mizo te hi thil mak leh danglam deuh buaipui chiam ṭhin leh heti lama hâwkdâk êm êm kan ni a tih theih àwm e.
+Mizo te hi thil mak leh danglam deuh buaipui chiam ṭhin leh heti lama hâwkdâk êm êm kan ni a tih theih àwm e.
 
 Pathian thu tak thu Bible chhûng ngei aṭanga sermon ai chuan lungkuai zâwng(emotional) kàichhuak thiam thiam, a thawm ring ring leh maksak apiang hian ngaithlatu leh zuitu an ngah zêl mai.
 
