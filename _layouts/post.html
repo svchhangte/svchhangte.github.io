@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="article">
   <header class="article-header">
-    <a class="back-link" href="{{ '/' | relative_url }}">← All writings</a>
+    <a class="back-link" href="/archive">← All writings</a>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% if page.categories.size > 0 %}<span class="meta-separator">·</span><span>{{ page.categories | join: ", " }}</span>{% endif %}
