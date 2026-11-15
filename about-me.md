@@ -15,4 +15,9 @@ permalink: /about-me/
 3. Graphic Design Specialization <i>(under <a href="https://calarts.edu/">California Institute of the Arts</a> Online Course)</i>
 4. Web Development
 
-**Skills:** Photoshop, InDesign, Ms Office, <a href="https://affinity.studio"><sup>1</sup></a>Affinity, <a href="https://cavalry.studio"><sup>2</sup></a>Cavalry, HTML, CSS, JavaScript, Canva, Figma, GitHub, Kdenlive
+**Skills:** Photoshop, InDesign, Ms Office, <a href="https://affinity.studio"><sup>1</sup></a>Affinity, <a href="https://cavalry.studio"><sup>2</sup></a>Cavalry, HTML, CSS, JavaScript, Canva, Figma, GitHub, Kdenlive  
+
+**Find me on Social Media:**
+1. Instagram: <a href="https://www.instagram.com/s.v.chhangte">@s.v.chhangte</a>
+2. YouTube: <a href="https://www.youtube.com/@SamuelVanlalruatsaka">Samuel Vanlalruatsak</a>
+3. Threads: <a href="https://threads.com/@s.v.chhangte">s.v.chhangte</a>
