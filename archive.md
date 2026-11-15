@@ -18,10 +18,10 @@ permalink: /archive/
     <h2>{{ year.name }}</h2>
     <div class="post-list">
       {% for post in year.items %}
-        <article class="post-list-item compact">
+        <a href="{{ post.url | relative_url }}" style="text-decoration:none;"><article class="post-list-item compact">
           <div class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time></div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-        </article>
+          <h3>{{ post.title | escape }}</h3>
+        </article></a>
       {% endfor %}
     </div>
   </section>
