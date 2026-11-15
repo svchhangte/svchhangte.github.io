@@ -19,5 +19,6 @@ permalink: /about-me/
 
 **Find me on Social Media:**
 1. Instagram: <a href="https://www.instagram.com/s.v.chhangte">@s.v.chhangte</a>
-2. YouTube: <a href="https://www.youtube.com/@SamuelVanlalruatsaka">Samuel Vanlalruatsak</a>
+2. YouTube: <a href="https://www.youtube.com/@SamuelVanlalruatsaka">Samuel Vanlalruatsaka</a>
 3. Threads: <a href="https://threads.com/@s.v.chhangte">s.v.chhangte</a>
+4. Facebook: <a href="https://www.facebook.com/share/1EnQeBGkoX/">Samuel Vanlalruatsaka</a>
