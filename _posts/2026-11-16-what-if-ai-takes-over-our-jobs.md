@@ -6,8 +6,6 @@ permalink: /what-if-ai-takes-over-our-jobs/
 categories: [Technology]
 ---
 
-## What If AI Takes Over Most of Our Jobs?
-
 One of the most popular topics among intellectuals, and something everyone should think about at least once, is how AI is gradually taking over human jobs these days.
 
 Big companies are laying off more and more workers, something we seem to hear about almost every day.
