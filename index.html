@@ -42,7 +42,7 @@ Have a nice day! 😊💕
   {% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" %}
   {% if visible_posts.size > 0 %}
     <div class="post-list">
-      {% for post in visible_posts limit: 10 %}
+      {% for post in visible_posts limit: 4 %}
         <a href="{{ post.url | relative_url }}" style="text-decoration:none;"><article class="post-list-item">
           <div class="post-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
